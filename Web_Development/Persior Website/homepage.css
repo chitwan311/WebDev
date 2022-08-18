@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300&display=swap");
+
+.body {
+  background-color: white;
+}
+
+.mainbox {
+  margin-top: 95px;
+  background-image: url("./static/homebg.jpg");
+  width: 100%;
+
+  padding-bottom: 588px;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+
+  /* display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly; */
+
+}
+.text {
+  /* padding-left: 20px; */
+  font-family: Encode Sans SC;
+  color: white;
+
+  position: absolute;
+  top: 25%;
+  left: 6%;
+  z-index: 5;
+
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 5px rgb(255, 255, 255) inset;
+}
+.title {
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.para {
+  font-weight: 100;
+  font-style: italic;
+  padding-left: 16%;
+  padding-right: 16%;
+}
+
+.Card {
+  margin: 40px;
+}
